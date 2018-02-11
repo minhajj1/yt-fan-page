@@ -1,5 +1,5 @@
 {
-  "name": "yt-fan-page" ,
+  "name": "yt-fan-page",
   "private": true,
   "scripts": {
     "start": "meteor run"
