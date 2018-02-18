@@ -8,6 +8,6 @@ FlowRouter.route('/', {
 FlowRouter.route('/new-video', {
     name: "new-video",
     action() {
-        BlazeLayout.render('MainLayout', {main: "Videos"});
+        BlazeLayout.render('Videos', {main: "Videos"});
     }
 });
