@@ -36,10 +36,9 @@ msavin:jetsetter
 zimme:active-route
 gwendall:auth-client-callbacks
 aldeed:collection2-core@2.0.0
-aldeed:simple-schema
-aldeed:collection2
 semantic:ui-sidebar
 semantic:ui
 juliancwirko:postcss
 less
 jquery
+aldeed:collection2

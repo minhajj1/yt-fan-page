@@ -11,3 +11,9 @@ FlowRouter.route('/new-video', {
         BlazeLayout.render('Videos', {main: "Videos"});
     }
 });
+FlowRouter.route('/tbd', {
+    name: "tbd",
+    action() {
+        BlazeLayout.render('tbd', {main: "tbd"});
+    }
+});

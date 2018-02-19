@@ -1,4 +1,7 @@
-Videos = new Meteor.Collection('videos');
+
+import { Mongo } from 'meteor/mongo';
+import SimpleSchema from 'simpl-schema';
+export const Videos = new Meteor.Collection('videos');
 
 VideoSchema = new SimpleSchema({
     name: {
@@ -20,7 +23,8 @@ VideoSchema = new SimpleSchema({
         label: "Author",
         autoValue: function(){
             return this.userId
-        }
+        },
+        optional: true
     },
     createdAt: {
         type: Date,
